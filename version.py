@@ -1,2 +1,2 @@
-import matplotlib.pyplot as mb
+import matplotlib as mb
 print(mb.__version__)
