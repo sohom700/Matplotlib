@@ -10,9 +10,10 @@ weight2 =np.array([48, 53, 57, 63, 70])
 mb.title("Height and Weight Analysis")
 mb.xlabel("Height")
 mb.ylabel("Weight")
-#aplha = Transparancy 
-# S is size of the scatters
-#label will identify the sings if their is more than one to view call legend function
+# alpha = transparency
+# s is the size of the scatter points
+# label will identify the points if there is more than one;
+# to display them, call the legend() function
 
 mb.scatter(height1,weight1, color="#f029d5",
                           alpha=0.7,
