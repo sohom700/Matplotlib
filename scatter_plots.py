@@ -1,0 +1,28 @@
+import matplotlib.pyplot as mb
+import numpy as np
+
+height1 =np.array([150, 155, 160, 165, 170])
+weight1 =np.array([45, 50, 55, 60, 68])
+
+height2 =np.array([152, 158, 162, 168, 172]) 
+weight2 =np.array([48, 53, 57, 63, 70]) 
+
+mb.title("Height and Weight Analysis")
+mb.xlabel("Height")
+mb.ylabel("Weight")
+#aplha = Transparancy 
+# S is size of the scatters
+#label will identify the sings if their is more than one to view call legend function
+
+mb.scatter(height1,weight1, color="#f029d5",
+                          alpha=0.7,
+                          s=40, 
+                          label="class7")
+
+mb.scatter(height2,weight2, color="#11043E",
+                          alpha=0.7,
+                          s=40,
+                          label="class8")
+
+mb.legend()
+mb.show()
