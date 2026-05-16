@@ -3,10 +3,10 @@ import numpy as np
 games=np.array(["Cricket", "Football", "Chess", "Badminton"])
 players=np.array([65, 28, 21, 10])
 
-#autopct = Auto Percentage 
-#explode function will move the protion from the pie according to the value for better understanding.
-#shadow will add shadow to each slice 
-#startangle will move the angle of the pie according to the inputed degree value. 
+# autopct will automatically display the percentage value on each slice of the pie chart.
+# explode moves a slice slightly outward from the pie chart for better visualization.
+# shadow adds a shadow effect behind the pie chart slices.
+# startangle rotates the starting position of the pie chart by the specified degree value. 
 
 
 mb.pie(players, labels=games,
